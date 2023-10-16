@@ -39,4 +39,11 @@ public class MathUtilityTest {
         
         assertEquals(120, MathUtility.getFactorial(5));
     }
+    
+    //3 test case trên ko đẹp, bốc mùi, bad smells vì chỉ khác nhau phần data
+    //Trong nghề kiểm thử có 1 kĩ thuật là tách hẳn data kiểm thử ra 1 chỗ cho dễ nhìn
+    //Dễ quản lí data thiếu đủ hay ko
+    
+    //Sau đó ta đưa bộ data này vào trong câu lệnh so sánh assert()
+    //Qua các tham số (parameters)
 }
