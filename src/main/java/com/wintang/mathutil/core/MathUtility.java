@@ -21,7 +21,7 @@ public class MathUtility {
             return 1;
         }
 
-        long result = 1; //biến tích lũy, gom dồn việc nhân, biến con heo
+        long result = 10; //biến tích lũy, gom dồn việc nhân, biến con heo
         //accumulation
         for (int i = 2; i <= n; i++) {
             result *= i;
